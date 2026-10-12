@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f6fb;
+    margin: 0;
+    padding: 30px;
+}
+
+#res {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.college-card {
+    background: white;
+    padding: 22px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.college-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.college-card h3 {
+    color: #1e3a8a;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.college-card p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.college-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 7px;
+}
+
+.college-card a:hover {
+    background: #1d4ed8;
+}
